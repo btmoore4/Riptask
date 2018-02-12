@@ -1,0 +1,73 @@
+div.task-container {
+    width: 100%;
+    height: 60px; 
+    display: table;
+    background-color: rgb(45, 45, 49); 
+    border-top: solid 0.25px white;
+    border-bottom: solid 0.25px white;
+    font-family: Monaco;
+}
+
+div.task-cell {
+    height: 100%;
+    display: table-cell;
+}
+
+div.task-left {
+    width: auto;
+}
+
+div.task-right{
+    width: 60px; 
+}
+
+div.task-top {
+    width: 100%;
+    height: 40px;
+    float: left;
+}
+
+div.task-bot {
+    height: 20px;
+    float: left;
+}
+
+div.task-bot-left {
+    width: 25%;
+}
+div.task-bot-right{
+    width: 75%;
+}
+
+div.task-checkbox {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+div.task-checkbox:hover {
+    background-color: blue;
+}
+
+p {
+    font-size: 10px;
+    line-height: 0px;
+    color: white;
+}
+
+p.task-title {
+    font-size: 14px;
+    line-height: 30px;
+    padding-left: 8px;
+}
+
+p.task-group{
+    padding-left: 8px;
+}
+
+p.task-due{
+    text-align: right;
+}
